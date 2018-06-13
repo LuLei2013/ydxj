@@ -5,8 +5,45 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "Demo 小程序",
     "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "tabBar": {
+    "borderStyle" : "black",
+    "color" : "#707070",
+    "selectedColor" : "#1296db",
+    "position" : "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/index/img/home_normal.png",
+        "selectedIconPath": "pages/index/img/home_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "消息",
+        "iconPath": "pages/index/img/message_normal.png",
+        "selectedIconPath": "pages/index/img/message_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "pages/index/img/settings_normal.png",
+        "selectedIconPath": "pages/index/img/settings_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/index/img/mine_normal.png",
+        "selectedIconPath": "pages/index/img/mine_selected.png"
+      }
+    ]
   }
 }
