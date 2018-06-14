@@ -35,6 +35,8 @@ Page({
       iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
     }
   ],
+  array: [1, 2, 3, 4, 5],
+  numb :"HELLO WORLD",
   /**
    * 生命周期函数--监听页面加载
    */

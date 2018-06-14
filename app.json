@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -35,8 +35,8 @@
       {
         "pagePath": "pages/index/index",
         "text": "发现",
-        "iconPath": "pages/index/img/settings_normal.png",
-        "selectedIconPath": "pages/index/img/settings_selected.png"
+        "iconPath": "pages/index/img/find_normal.png",
+        "selectedIconPath": "pages/index/img/find_selected.png"
       },
       {
         "pagePath": "pages/index/index",
