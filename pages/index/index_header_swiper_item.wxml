@@ -1,0 +1,3 @@
+ <template name ="header_swiper_item">
+ <image src="{{item}}"  class="swiper-img"/>
+ </template>

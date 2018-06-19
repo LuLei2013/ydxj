@@ -7,22 +7,22 @@ Page({
     mainContents: [
       {
         title: "Hello",
-        subTitle: "世界你好",
+        subTitle: "世界你好1",
         iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
       },
       {
         title: "Hello",
-        subTitle: "世界你好",
+        subTitle: "世界你好2",
         iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
       },
       {
         title: "Hello",
-        subTitle: "世界你好",
+        subTitle: "世界你好3",
         iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
       },
       {
         title: "Hello",
-        subTitle: "世界你好",
+        subTitle: "世界你好4",
         iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
       }
     ]

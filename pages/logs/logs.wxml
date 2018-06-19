@@ -1,18 +1,12 @@
 <!--logs.wxml-->
-<view class="log-list">
-  <block wx:for="{{logs}}" wx:for-item="item" wx:for-index="i">
-    <text class="log-item">{{i + 1}}. {{item}}</text>
-  </block>
-
- <view wx:for="{{mainContents}}">
- {{index}}   :    {{item.title}}  : {{item.subTitle}}
-  <image src="{{item.iconUrl}}"></image>
- </view>
- <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
-  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
-    <view wx:if="{{i <= j}}">
-      {{i}} * {{j}} = {{i * j}}
-    </view>
+<template name="Item">
+  <view>
+    <text> title: {{title}}  subTitle: {{subTitle}} </text>
+    <image src="{{iconUrl}}"></image>
   </view>
-</view>
-</view>
+</template>
+
+ 
+<block wx:for="{{mainContents}}" wx:for-index="i">
+  <template is="Item" data ="{{...mainContents[i]}}"/>
+</block>

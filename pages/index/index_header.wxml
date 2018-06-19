@@ -1,0 +1,13 @@
+  <import src="index_header_swiper_item.wxml"/>
+  <swiper indicator-dots="{{banner.indicatorDots}}"
+    autoplay="{{banner.autoplay}}" 
+    interval="{{banner.interval}}" 
+    duration="{{banner.duration}}">
+    <block wx:for="{{banner.bannerImgUrls}}" 
+      wx:for-item="item">
+      <swiper-item>
+      <template is="header_swiper_item" 
+        data="{{item}}"/>
+      </swiper-item>
+    </block>
+  </swiper>  
