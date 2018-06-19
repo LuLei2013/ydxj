@@ -1,12 +1,20 @@
 <!--logs.wxml-->
 <template name="Item">
-  <view>
-    <text> title: {{title}}  subTitle: {{subTitle}} </text>
-    <image src="{{iconUrl}}"></image>
+  <view class='menu-td'>
+    <view class='menu-td-left'>
+      <text class='menu-td-left-title'>{{title}}</text>
+      <text class='menu-td-left-subtitle'>{{subTitle}} </text>
+    </view>
+    <image src="{{iconUrl}}" class='menu-td-right'/>
   </view>
 </template>
 
- 
-<block wx:for="{{mainContents}}" wx:for-index="i">
-  <template is="Item" data ="{{...mainContents[i]}}"/>
-</block>
+<view class='menu'>
+  <block wx:for="{{mainContents}}" wx:for-item="row">
+  <view class='menu-tr'>
+    <block wx:for="{{row}}" wx:for-item="item">
+      <template is="Item" data ="{{...item}}"/>
+    </block>
+     </view>
+  </block>
+</view>

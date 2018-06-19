@@ -11,32 +11,34 @@ Page({
       autoplay: true,
       interval: 5000,
       duration: 1000
-    }
+    },
+    mainContents: [
+      [
+        {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"
+        },
+        {
+          title: "端午短假",
+          subTitle: "放假3天",
+          iconUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"
+        }
+      ],
+      [
+        {
+          title: "国庆假期",
+          subTitle: "放假7天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "春节假期",
+          subTitle: "放假7天",
+          iconUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"
+        }
+      ]
+    ]
   },
-  mainContents :[
-    { 
-      title : "Hello",
-      subTitle : "世界你好",
-      iconUrl:"http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
-    },
-    {
-      title: "Hello",
-      subTitle: "世界你好",
-      iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
-    },
-    {
-      title: "Hello",
-      subTitle: "世界你好",
-      iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
-    },
-    {
-      title: "Hello",
-      subTitle: "世界你好",
-      iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
-    }
-  ],
-  array: [1, 2, 3, 4, 5],
-  numb :"HELLO WORLD",
   /**
    * 生命周期函数--监听页面加载
    */
