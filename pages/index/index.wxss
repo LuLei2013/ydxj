@@ -5,7 +5,7 @@
   height : 150px;
 }
 
-/* 内容区域 样式 */
+/* 内容区域 主菜单 样式 */
 .menu{
   padding: 6px;
 }
@@ -49,5 +49,34 @@ width: 50px;
 height: 50px;
 }
 
+/* 内容区域 辅菜单 样式 */
+.item{
+  padding:4px;
+}
+.item-tr{
+  padding: 4px;
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content:space-around;
+}
 
+.item-td{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.item-td-top{
+  border-radius:20px;
+  margin: 4px;
+  width: 45px;
+  height: 45px;
+}
+
+.item-td-bottom{
+  margin: 4px;
+  font-size: 10px;
+  color: #18213E;
+}
 /* 底部区域 样式 */

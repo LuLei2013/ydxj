@@ -37,6 +37,51 @@ Page({
           iconUrl: "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"
         }
       ]
+    ],
+
+    subContents: [
+      [
+        {
+          title: "美食",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "服装",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "求租",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "出租",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "出行",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        }
+      ],
+      [
+        {
+          title: "学习",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "旅游",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "灌水",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        }, {
+          title: "招领",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        }, {
+          title: "寻物",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+      ]
     ]
   },
   /**

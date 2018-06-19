@@ -1,4 +1,4 @@
 <!--pages/main/main.wxml-->
 <include src="index_header.wxml"/>
-<include src="index_main_content.wxml"/>
+<include src="index_content.wxml"/>
 <include src="index_footer.wxml"/>

@@ -1,0 +1,40 @@
+<!--  主菜单Item魔板 -->
+<template name="Large-Item">
+  <view class='menu-td'>
+    <view class='menu-td-left'>
+      <text class='menu-td-left-title'>{{title}}</text>
+      <text class='menu-td-left-subtitle'>{{subTitle}} </text>
+    </view>
+    <image src="{{iconUrl}}" class='menu-td-right'/>
+  </view>
+</template>
+
+<!--  辅菜单Item魔板 -->
+<template name="Small-Item">
+  <view class='item-td'>
+    <image src="{{iconUrl}}" class='item-td-top'/>
+    <text class='item-td-bottom'>{{title}}</text>
+  </view>
+</template>
+
+<!--  辅菜单 -->
+<view class='item'>
+  <block wx:for="{{subContents}}" wx:for-item="row">
+  <view class='item-tr'>
+    <block wx:for="{{row}}" wx:for-item="item">
+      <template is="Small-Item" data ="{{...item}}"/>
+    </block>
+  </view>
+  </block>
+</view>
+
+<!--  主菜单 -->
+<view class='menu'>
+  <block wx:for="{{mainContents}}" wx:for-item="row">
+  <view class='menu-tr'>
+    <block wx:for="{{row}}" wx:for-item="item">
+      <template is="Large-Item" data ="{{...item}}"/>
+    </block>
+     </view>
+  </block>
+</view>
