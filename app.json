@@ -1,13 +1,16 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/find/find",
+    "pages/mine/mine"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#1296db",
     "navigationBarTitleText": "Demo 小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "networkTimeout": {
     "request": 10000,
@@ -15,34 +18,34 @@
   },
   "debug": true,
   "tabBar": {
-    "borderStyle" : "black",
-    "color" : "#707070",
-    "selectedColor" : "#1296db",
-    "position" : "bottom",
+    "borderStyle": "black",
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "pages/index/img/home_normal.png",
-        "selectedIconPath": "pages/index/img/home_selected.png"
+        "iconPath": "pages/img/home_normal.png",
+        "selectedIconPath": "pages/img/home_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/message/message",
         "text": "消息",
-        "iconPath": "pages/index/img/message_normal.png",
-        "selectedIconPath": "pages/index/img/message_selected.png"
+        "iconPath": "pages/img/message_normal.png",
+        "selectedIconPath": "pages/img/message_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/find/find",
         "text": "发现",
-        "iconPath": "pages/index/img/find_normal.png",
-        "selectedIconPath": "pages/index/img/find_selected.png"
+        "iconPath": "pages/img/find_normal.png",
+        "selectedIconPath": "pages/img/find_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "text": "我的",
-        "iconPath": "pages/index/img/mine_normal.png",
-        "selectedIconPath": "pages/index/img/mine_selected.png"
+        "iconPath": "pages/img/mine_normal.png",
+        "selectedIconPath": "pages/img/mine_selected.png"
       }
     ]
   }
