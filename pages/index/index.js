@@ -9,7 +9,8 @@ Page({
       indicatorDots: true,
       autoplay: true,
       interval: 5000,
-      duration: 1000
+      duration: 1000,
+      currentIndex:0
     },
     mainContents: [
       [
@@ -87,7 +88,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**
@@ -137,5 +138,21 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  /**
+   * 顶部滚动的广告，滚动啦
+   */
+  onBannerSwiperChange:function(event){
+    console.log(event.detail.current);
+  },
+
+  /**
+   * 顶部滚动的广告，被点击啦
+   */
+  onBannerSwiperClick: function (event) {
+    wx.navigateTo({
+      url: "food/food"
+    })
   }
 })
