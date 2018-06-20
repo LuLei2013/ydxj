@@ -1,0 +1,17 @@
+<template name ="header_swiper_item">
+ <image src="{{item}}"  class="swiper-img" bindtap="onBannerSwiperClick"/>
+</template>
+<swiper indicator-dots="{{banner.indicatorDots}}"
+    autoplay="{{banner.autoplay}}" 
+    interval="{{banner.interval}}" 
+    circular="true"
+    duration="{{banner.duration}}"
+    bindchange="onBannerSwiperChange">
+    <block wx:for="{{banner.bannerImgUrls}}" 
+      wx:for-item="item">
+      <swiper-item>
+      <template is="header_swiper_item" 
+        data="{{item}}"/>
+      </swiper-item>
+    </block>
+</swiper>  

@@ -3,7 +3,61 @@ const util = require('../../utils/util.js')
 
 Page({
   data: {
-    logs: []
+    logs: [],
+    mainContents: [ 
+      [
+         {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "端午短假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        }
+      ],
+      [
+        {
+          title: "端午短假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "端午短假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+        {
+          title: "端午短假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        }, {
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },{
+          title: "五一长假",
+          subTitle: "放假3天",
+          iconUrl: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+        },
+      ]
+    ]
   },
   onLoad: function () {
     this.setData({

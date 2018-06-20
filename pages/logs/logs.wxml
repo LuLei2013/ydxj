@@ -1,6 +1,17 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
+<template name="Small-Item">
+  <view class='item-td'>
+    <image src="{{iconUrl}}" class='item-td-top'/>
+    <text class='item-td-bottom'>{{title}}</text>
+  </view>
+</template>
+
+<view class='item'>
+  <block wx:for="{{mainContents}}" wx:for-item="row">
+  <view class='item-tr'>
+    <block wx:for="{{row}}" wx:for-item="item">
+      <template is="Small-Item" data ="{{...item}}"/>
+    </block>
+  </view>
   </block>
 </view>

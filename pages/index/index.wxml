@@ -1,16 +1,4 @@
 <!--pages/main/main.wxml-->
-<view>
-   <swiper id="banner"
-    indicator-dots="{{banner.indicatorDots}}"
-    autoplay="{{banner.autoplay}}" 
-    interval="{{banner.interval}}" 
-    duration="{{banner.duration}}">
-    <block wx:for="{{banner.bannerImgUrls}}">
-      <swiper-item>
-        <image src="{{item}}" 
-          width="355" 
-          height="150"/>
-      </swiper-item>
-    </block>
-  </swiper>  
-</view>
+<include src="index_header.wxml"/>
+<include src="index_content.wxml"/>
+<include src="index_footer.wxml"/>
